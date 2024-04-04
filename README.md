@@ -13,7 +13,6 @@ The Key steps for the proper execution of the projects are
 - Insights Generation
 - Visualization 
 
-
 ##  Skills
 - Python (Numpy, Pandas)
 - Beautiful Soup, Scrapy
@@ -25,6 +24,7 @@ The Key steps for the proper execution of the projects are
 1. Clone the repository to your local machine.
 2. Open the Collab file in Jupyter notebook or VBS
 3. Explore the various visualizations and filters to gain insights into e-commerce performance.
+   
 ## Approach for the Scraping
 
    1. Import Necessary Libraries
@@ -45,6 +45,13 @@ The Key steps for the proper execution of the projects are
    
    9. Display the extracted details in a structured format to provide a comprehensive view of the job title, company name, experience, salary, and location.
 
-## Demo
-
-.
+## Conclusion
+In this project, I successfully conducted web scraping on the TimesJobs website to gather job information related to Data Science, Business Analysis, and Data Analysis. The scraping process involved extracting details such as job title, company name, experience requirements, salary ranges, locations, and required skills.
+Following the web scraping, I performed Exploratory Data Analysis (EDA) on the scraped data to gain insights into the job market. 
+Some key observations from the EDA include:
+   Job Roles: The available positions are diverse, including opportunities for Data Science Internships and Business Analyst roles.
+   Experience Requirements: Job listings have varying experience requirements, ranging from 0-1 years to 1-6 years.
+   Salary Ranges: The salary packages for these positions exhibit a variety, covering options such as "As per industry standards," "1 - 2 Lpa," and "1.95 - 12.00 Lpa."
+   Job Locations: The job locations are primarily in Ahemdabad (Gujarat) and Pune (Maharashtra).
+   Desired Skills: The skills in demand for these positions include proficiency in SQL and Tableau.
+   Job Recency: Job postings are relatively recent, with recency periods of 15 days and 30 days, indicating the time since the positions were posted.
